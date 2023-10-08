@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kumys Official Website | kumys KZ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    
+    <section id="header">
+        <a href="index.html"><img src="KUMYS.png" class="logo" style="height: 100px;" alt="" ></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="cart.html">CART</a></li>
+                <li><a href="#contact">CONTACTS</a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fa-solid fa-bars" style="color: white;"></i>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>TRENDING</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <div id="swiper-container" class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="REGULAR T-SHIRT MOCKUP copy .png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="REGULAR T-SHIRT MOCKUP copy 2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+                <div class="des" onclick="window.location.href='sproduct2.html';">
+                    <h4>T-SHIRT "KUMYS SPLASH"</h4>
+                    <h5>SIZES M | L</h5>
+                    <h5 style="padding: 25px;">PRICE $20</h5>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <div id="swiper-container" class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="ZIP HOODIE WITH MODEL copy.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="ZIP HOODIE WITH MODEL copy 2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+                <div class="des" onclick="window.location.href='sproduct.html';">
+                    <h4>HOODIE "KUMYS SPLASH"</h4>
+                    <h5>SIZES M | L</h5>
+                    <h5 style="padding: 25px;">PRICE $35</h5>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-p1" id="contact">
+        <div class="icons">
+            <a href="https://www.instagram.com/kumys.store/" style="color: white; " target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/77779351616" style="color: white; " target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:kumys.store@mail.ru" style="color: white; " target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div><br>
+        <p style="color: white;">&copy;2023 kumys Kazakhstan, inc.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        var swiper = new Swiper('#swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    
+</body>
+
+</html>
